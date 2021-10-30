@@ -123,6 +123,18 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background: linear-gradient(
+    to bottom right,
+    var(--primary),
+    darkred
+  ) !important;
+}
+
 a {
   color: #6b747b;
   text-decoration: underline;
@@ -591,9 +603,9 @@ input[type="checkbox"] {
 }
 
 .header img {
-	max-height: 250px;
-	margin-left: auto;
-	margin-right: auto;
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header .text-container {
@@ -830,9 +842,9 @@ input[type="checkbox"] {
 .basic-4 {
   padding-top: 9rem;
   padding-bottom: 9rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/mission-background.jpg") center center no-repeat;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)),
+    url("../images/sands/sands-logo2.png") center center no-repeat;
+  background-size: contain;
   text-align: center;
 }
 
@@ -982,11 +994,13 @@ input[type="checkbox"] {
   background-size: cover;
 }
 
-.form-1 h2, .form-1 h1 {
+.form-1 h2,
+.form-1 h1 {
   margin-bottom: 0.75rem;
 }
 
-.form-1 h2, .form-1 h1,
+.form-1 h2,
+.form-1 h1,
 .form-1 .p-heading,
 .form-1 .list-unstyled {
   color: #dad5d5;
