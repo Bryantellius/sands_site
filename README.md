@@ -24,5 +24,5 @@ All images are stock photos. Custom photos to come.
 ### Change Projects Slider Properties
 
 - Open for editing js/scripts.js
-- Find the section \_ Text Slider - Swiper \_
+- Find the section _Text Slider - Swiper_
 - Reference [SwiperJS](https://swiperjs.com/demos) for examples
