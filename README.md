@@ -1,21 +1,21 @@
-# Sanchez and Sanchez
+# S and S Hydraulics Client Website
 
-## FILE STRUCTURE
+## Project Structure
 
-- index.html holds the entire content
-- css/site.css custom css styling
-- js/app.js custom js code
-- images folder contains all the images
+- the `.html` files are pages
+- `css/site.css` custom css styling
+- `js/app.js` custom js code
+- `images/` folder contains all the images
 - The rest are files specific to different frameworks and dependencies
 
 ## Frameworks and Dependencies
 
 - [Bootstrap](https://getbootstrap.com/)
-- jQuery https://jquery.com/
-- jQuery Easing https://jqueryui.com/easing/
-- Magnific Popup https://dimsemenov.com/plugins/magnific-popup/
-- Swiper https://swiperjs.com/
-- Font Awesome for icons https://fontawesome.com/
+- [jQuery](https://jquery.com/)
+- [jQuery Easing](https://jqueryui.com/easing/)
+- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
+- [Swiper](https://swiperjs.com/)
+- [Font Awesome for icons](https://fontawesome.com/)
 
 ## Images
 
