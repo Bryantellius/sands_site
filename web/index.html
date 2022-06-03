@@ -8,19 +8,25 @@
     />
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description" />
-    <meta name="author" content="Your name" />
+    <meta
+      name="description"
+      content="Top Rated Hydraulic Repair focused on rapid turnaround, affordable pricing and friendly service."
+    />
+    <meta name="author" content="Ben Bryant" />
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="SSMD Services" />
     <!-- website name -->
-    <meta property="og:site" content="" />
+    <meta property="og:site" content="https://ssmdservices.com" />
     <!-- website link -->
-    <meta property="og:title" content="S & S Hydraulics" />
+    <meta property="og:title" content="SSMD Services" />
     <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" />
+    <meta
+      property="og:description"
+      content="Top Rated Hydraulic Repair focused on rapid turnaround, affordable pricing and friendly service."
+    />
     <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="./img/sands/sands-logo.jpg" />
+    <meta property="og:image" content="./img/sands/SSMD-Logo-round.png" />
     <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="" />
     <!-- where do you want your post to link to -->
@@ -28,7 +34,7 @@
     <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>S & S Hydraulics</title>
+    <title>SSMD Services</title>
 
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -43,15 +49,31 @@
     <link href="css/site.css" rel="stylesheet" />
 
     <!-- Favicon  -->
-    <link rel="icon" href="images/sands/sands-logo2.png" />
+    <link rel="icon" href="images/sands/SSMD-Logo-round.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-228941690-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-228941690-1");
+    </script>
   </head>
   <body data-spy="scroll" data-target=".fixed-top">
     <!-- TOP NAVIGATION -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container">
         <!-- IMAGE LOGO -->
-        <a class="navbar-brand logo-image" href="index.html"
-          ><img src="images/sands/sands-inline-logo.png" alt="alternative"
+        <a class="navbar-brand logo-image" href="#header"
+          ><img
+            src="images/sands/NewSSMDLogo-white-oneline.png"
+            alt="alternative"
         /></a>
 
         <button
@@ -68,37 +90,21 @@
         >
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link page-scroll" href="#header">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="services.html">Services</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link page-scroll" href="#strengths">Strengths</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="about.html">About</a>
+              <a class="nav-link page-scroll" href="#details">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="contact.html">Contact</a>
+              <a class="nav-link page-scroll" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="./blog.html">Blog</a>
             </li>
           </ul>
-          <span class="nav-item social-icons">
-            <span class="fa-stack">
-              <a href="#your-link">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x"></i>
-              </a>
-            </span>
-            <span class="fa-stack">
-              <a href="#your-link">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x"></i>
-              </a>
-            </span>
-          </span>
         </div>
       </div>
     </nav>
@@ -108,19 +114,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="image-container">
-              <img
-                class="img-fluid"
-                src="images/sands/sands-logo2.png"
-                alt="S&S Hydraulics"
-              />
-            </div>
+            <div class="image-container header-logo"></div>
           </div>
           <div class="col-lg-6">
             <div class="text-container">
-              <h1>Top Rated Hydraulic Component Repair</h1>
-              <a class="btn-solid-lg" href="services.html">Learn More</a>
-              <a class="btn-outline-lg" href="contact.html">Contact</a>
+              <h1>Top Rated Hydraulic Repair</h1>
+              <a class="btn-solid-lg page-scroll" href="#details">Services</a>
+              <a class="btn-outline-lg" href="tel:2053196022">Call</a>
             </div>
           </div>
         </div>
@@ -135,12 +135,12 @@
                   <i class="fas fa-tools"></i>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Hydraulic Component Repair</h5>
-                  <div class="card-text">
+                  <h5 class="card-title">Rapid Turnaround Time</h5>
+                  <!-- <div class="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <!-- end of card -->
@@ -151,11 +151,11 @@
                   <i class="fas fa-toolbox"></i>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Hydraulic Component Repair</h5>
-                  <div class="card-text">
+                  <h5 class="card-title">Affordable Pricing</h5>
+                  <!-- <div class="card-text">
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco
                     laboris nisi ut aliquip ex ea commodo consequat.
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <!-- end of card -->
@@ -166,11 +166,11 @@
                   <i class="fas fa-wrench"></i>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Hydraulic Component Repair</h5>
-                  <div class="card-text">
+                  <h5 class="card-title">Friendly Service</h5>
+                  <!-- <div class="card-text">
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -182,35 +182,31 @@
     <!-- Details 1 -->
     <div id="details" class="basic-1">
       <div class="container">
+        <h2 class="text-large border-bottom border-danger my-5 p-3">
+          Services
+        </h2>
         <div class="row">
           <div class="col-lg-6 col-xl-5">
             <div class="text-container">
-              <h2>Hydraulic Component Repair</h2>
+              <h3>Hydraulic Repair</h3>
               <hr class="hr-heading" />
-              <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
+              <p>We work on a variety of hydraulic components including:</p>
               <ul class="list-unstyled li-space-lg">
                 <li class="media">
                   <i class="fas fa-square"></i>
-                  <div class="media-body">Repairing hydraulic components</div>
+                  <div class="media-body">Hydraulic Cylinders</div>
                 </li>
                 <li class="media">
                   <i class="fas fa-square"></i>
-                  <div class="media-body">
-                    Repairing components of hydraulic
-                  </div>
+                  <div class="media-body">Hydraulic Pumps</div>
                 </li>
                 <li class="media">
                   <i class="fas fa-square"></i>
-                  <div class="media-body">To repair hydraulic components</div>
+                  <div class="media-body">Hydraulic Motors</div>
                 </li>
                 <li class="media">
                   <i class="fas fa-square"></i>
-                  <div class="media-body">
-                    The repair of hydraulic components
-                  </div>
+                  <div class="media-body">Hydraulic Valves</div>
                 </li>
               </ul>
             </div>
@@ -219,7 +215,7 @@
             <div class="image-container">
               <img
                 class="img-fluid"
-                src="images/sands/large-bore-cylinder-6.jpg"
+                src="images/sands/Hydraulic-Cylinder.jpg"
                 alt="alternative"
               />
             </div>
@@ -236,260 +232,57 @@
             <div class="image-container">
               <img
                 class="img-fluid"
-                src="images/sands/Hydraulic-Cylinder.jpg"
+                src="images/sands/large-bore-cylinder-6.jpg"
                 alt="alternative"
               />
             </div>
           </div>
           <div class="text-area">
             <div class="text-container">
-              <h2>Hydraulic Component Repair</h2>
+              <h3>Delivery</h3>
               <hr class="hr-heading" />
               <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                We provide pickup and delivery for any hydraulic repair project
+                per request.
               </p>
-              <a
-                class="btn-solid-reg popup-with-move-anim"
-                href="#details-lightbox"
-                >Learn More</a
-              >
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Details Lightbox -->
-    <!-- Lightbox -->
-    <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-      <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">
-          ×
-        </button>
-        <div class="col-lg-8">
-          <div class="image-container">
-            <img
-              class="img-fluid"
-              src="images/details-lightbox.jpg"
-              alt="alternative"
-            />
-          </div>
-          <!-- end of image-container -->
-        </div>
-        <!-- end of col -->
-        <div class="col-lg-4">
-          <h3>Goals Setting</h3>
-          <hr />
-          <p>
-            The app can easily help you track your personal development
-            evolution if you take the time to set it up.
-          </p>
-          <h4>User Feedback</h4>
-          <p>
-            This is a great app which can help you save time and make your live
-            easier. And it will help improve your productivity.
-          </p>
-          <ul class="list-unstyled li-space-lg">
-            <li class="media">
-              <i class="fas fa-check"></i>
-              <div class="media-body">Splash screen panel</div>
-            </li>
-            <li class="media">
-              <i class="fas fa-check"></i>
-              <div class="media-body">Statistics graph report</div>
-            </li>
-            <li class="media">
-              <i class="fas fa-check"></i>
-              <div class="media-body">Events calendar layout</div>
-            </li>
-            <li class="media">
-              <i class="fas fa-check"></i>
-              <div class="media-body">Location details screen</div>
-            </li>
-            <li class="media">
-              <i class="fas fa-check"></i>
-              <div class="media-body">Onboarding steps interface</div>
-            </li>
-          </ul>
-          <a class="btn-solid-reg mfp-close page-scroll" href="contact.html"
-            >Contact Us</a
-          >
-          <button class="btn-outline-reg mfp-close as-button" type="button">
-            Back
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-    <!-- end of details lightbox -->
-
-    <!-- Details 3 -->
-    <div class="basic-3">
+    <!-- Projects -->
+    <div id="projects" class="slider-1 basic-3">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-xl-5">
             <div class="text-container">
-              <h2>Hydraulic Component Repair</h2>
+              <h3>Equipment Brands</h3>
               <hr class="hr-heading" />
-              <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
-              <ul class="list-unstyled li-space-lg">
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">Hydraulics, we repair them</div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">The repairation of hydraulics</div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">Repair hydraulic components</div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">
-                    The Repair of components of hydraulics
-                  </div>
-                </li>
-              </ul>
+              <p>Here is a list of a few brands we work with.</p>
             </div>
-            <!-- end of text-container -->
-          </div>
-          <!-- end of col -->
-          <div class="col-lg-6 col-xl-7">
-            <div class="image-container">
-              <img
-                class="img-fluid"
-                src="images/sands/large-bore-cylinder-9.jpeg"
-                alt="alternative"
-              />
-            </div>
-            <!-- end of image-container -->
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-      </div>
-      <!-- end of container -->
-    </div>
-    <!-- end of basic-3 -->
-    <!-- end of details 3 -->
-
-    <!-- Mission -->
-    <!-- <div class="basic-4">
-      <div class="container">
-        <div class="row">
-          <div class="text-container">
-            <h4>
-              Our mission is to deliver reliable ecommerce solutions together
-              with the necessary consulting and marketing services which will
-              help customers achieve long term market stability
-            </h4>
           </div>
         </div>
-      </div>
-    </div> -->
-    <!-- end of mission -->
-
-    <!-- Strengths -->
-    <!-- <div id="strengths" class="basic-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="list-unstyled li-space-lg">
-              <li class="media">
-                <div class="bullet">1</div>
-                <div class="media-body">
-                  <h4>Specialized expertise</h4>
-                  <p>
-                    We've been deploying successful online shops for about 10
-                    year and we've made it our mission to provide the best
-                    Shopify development services in the industry. Besides the
-                    shop itself we also provide branding and strategy services
-                    to create solid foundations our customers online projects
-                  </p>
-                </div>
-              </li>
-              <li class="media">
-                <div class="bullet">2</div>
-                <div class="media-body">
-                  <h4>Shopify partner</h4>
-                  <p>
-                    Our partnership with Shopify enables us to stay on top of
-                    all platform updates and prepare them for installation in
-                    your own online store. We're in permanent communication with
-                    the Shopify design and development team so we can solve any
-                    difficult situations that can occur after major updates
-                  </p>
-                </div>
-              </li>
-              <li class="media">
-                <div class="bullet">3</div>
-                <div class="media-body">
-                  <h4>Timely delivery</h4>
-                  <p>
-                    We take pride in delivering projects before the deadline to
-                    extend the pre-launch testing period. This ensures a smooth
-                    user experience and it also helps with bringing visitors
-                    back. You can check out or
-                    <a class="red page-scroll" href="#projects"
-                      >projects section</a
-                    >
-                    below to hear straight from our customers what they think
-                    about us
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- end of strengths -->
-
-    <!-- Projects -->
-    <!-- <div id="projects" class="slider-1">
-      <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="slider-container">
               <div class="swiper-container text-slider">
                 <div class="swiper-wrapper">
-
                   <div class="swiper-slide">
                     <div class="row">
                       <div class="col-lg-6">
                         <div class="image-container">
                           <img
                             class="img-fluid"
-                            src="images/project-1.jpg"
+                            src="images/Genie1.jpg"
                             alt="alternative"
                           />
                         </div>
                       </div>
                       <div class="col-lg-6">
                         <div class="text-container">
-                          <h4>Online retailer shop</h4>
-                          <p>
-                            We were proud to partner with Online Retailer in
-                            order to create a modern online store where
-                            customers can purchase some of the best items from
-                            the market at affordable prices
-                          </p>
-                          <p class="testimonial-text">
-                            "I am happy to have chosen Spify for our Shopify
-                            implementation. Their specialized experience helped
-                            the project and made it available 2 weeks prior the
-                            launch date for extensive testing"
-                          </p>
-                          <div class="testimonial-author">
-                            Michael Smith - General Manager
-                          </div>
+                          <h4 class="text-large">Genie</h4>
+                          <hr class="hr-heading" />
                         </div>
                       </div>
                     </div>
@@ -501,29 +294,15 @@
                         <div class="image-container">
                           <img
                             class="img-fluid"
-                            src="images/project-2.jpg"
+                            src="images/Genie2.jpg"
                             alt="alternative"
                           />
                         </div>
                       </div>
                       <div class="col-lg-6">
                         <div class="text-container">
-                          <h4>Shopify ecommerce site</h4>
-                          <p>
-                            We were proud to partner with Online Retailer in
-                            order to create a modern online store where
-                            customers can purchase some of the best items from
-                            the market at affordable prices
-                          </p>
-                          <p class="testimonial-text">
-                            "I am happy to have chosen Spify for our Shopify
-                            implementation. Their specialized experience helped
-                            the project and made it available 2 weeks prior the
-                            launch date for extensive testing"
-                          </p>
-                          <div class="testimonial-author">
-                            Ronnie Blake - Sales Manager
-                          </div>
+                          <h4 class="text-large">Genie</h4>
+                          <hr class="hr-heading" />
                         </div>
                       </div>
                     </div>
@@ -535,29 +314,53 @@
                         <div class="image-container">
                           <img
                             class="img-fluid"
-                            src="images/project-3.jpg"
+                            src="images/Gehl1.jpg"
                             alt="alternative"
                           />
                         </div>
                       </div>
                       <div class="col-lg-6">
                         <div class="text-container">
-                          <h4>Online fashion shop</h4>
-                          <p>
-                            We were proud to partner with Online Retailer in
-                            order to create a modern online store where
-                            customers can purchase some of the best items from
-                            the market at affordable prices
-                          </p>
-                          <p class="testimonial-text">
-                            "I am happy to have chosen Spify for our Shopify
-                            implementation. Their specialized experience helped
-                            the project and made it available 2 weeks prior the
-                            launch date for extensive testing"
-                          </p>
-                          <div class="testimonial-author">
-                            Nicole Richter - Development Manager
-                          </div>
+                          <h4 class="text-large">GEHL</h4>
+                          <hr class="hr-heading" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="image-container">
+                          <img
+                            class="img-fluid"
+                            src="images/RentalWorks2.jpg"
+                            alt="alternative"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="text-container">
+                          <h4 class="text-large">Kobelco</h4>
+                          <hr class="hr-heading" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="image-container">
+                          <img
+                            class="img-fluid"
+                            src="images/Cylinders.jpg"
+                            alt="alternative"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="text-container">
+                          <h4 class="text-large">Many More</h4>
+                          <hr class="hr-heading" />
                         </div>
                       </div>
                     </div>
@@ -570,7 +373,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- end of projects -->
 
     <!-- About -->
@@ -579,37 +382,19 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="text-container bg-gray">
-              <h2>About our team</h2>
-              <p>Me and my daddo doing work since we became awesome.</p>
-              <ul class="list-unstyled li-space-lg">
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">
-                    We are passionate about doing the best for our customers
-                  </div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">
-                    We are well trained to produce the highest quality on the
-                    market
-                  </div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">All in the family</div>
-                </li>
-              </ul>
-              <hr />
-              <a class="btn-solid-lg" href="about.html">Read More</a>
+              <h2>Local Business</h2>
+              <p>We're located in Birmingham, AL.</p>
             </div>
             <!-- end of text-container -->
             <div class="image-container text-right">
-              <img
-                class="img-fluid"
-                src="images/sands/sands-logo2.png"
-                alt="alternative"
-              />
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.1171000957956!2d-86.85069158448948!3d33.52434095281079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88891c5b0afd0669%3A0x5672a7684699efd2!2s1205%208th%20St%20W%2C%20Birmingham%2C%20AL%2035204!5e0!3m2!1sen!2sus!4v1645828580076!5m2!1sen!2sus"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
             </div>
             <!-- end of image-container -->
           </div>
@@ -622,15 +407,93 @@
     <!-- end of basic-6 -->
     <!-- end of about -->
 
-    <!-- Invitation -->
-    <div class="basic-7">
+    <!-- Contact -->
+    <div id="contact" class="form-1">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h4>Have Questions?</h4>
-            <a class="btn-solid-lg page-scroll" href="contact.html"
-              >Contact Us Today</a
+            <h1>Contact Us</h1>
+            <p class="p-heading">
+              Don't hesitate to give us a call for more information, or just use
+              the contact form below and we'll be in touch!
+            </p>
+            <ul class="list-unstyled li-space-lg">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                Birmingham, AL, US
+              </li>
+              <li>
+                <i class="fas fa-phone"></i> &nbsp;<a href="tel:2053196022"
+                  >205-319-6022</a
+                >
+              </li>
+              <!-- <li>
+                  <i class="fas fa-envelope"></i> &nbsp;<a
+                    href="mailto:contact@site.com"
+                    >contact@site.com</a
+                  >
+                </li> -->
+            </ul>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Contact Form -->
+            <form
+              id="contactForm"
+              method="post"
+              data-netlify="true"
+              name="contact"
             >
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control-input"
+                  id="cname"
+                  name="name"
+                  required
+                />
+                <label class="label-control" for="cname">Name</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control-input"
+                  id="ccompany"
+                  name="company"
+                  required
+                />
+                <label class="label-control" for="ccompany">Company</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control-input"
+                  id="cemail"
+                  name="email"
+                  required
+                />
+                <label class="label-control" for="cemail">Email</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  class="form-control-input"
+                  id="ctelephone"
+                  name="phone"
+                  required
+                />
+                <label class="label-control" for="cemail">Phone</label>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="form-control-submit-button">
+                  Send
+                </button>
+              </div>
+            </form>
+            <!-- end of contact form -->
           </div>
           <!-- end of col -->
         </div>
@@ -638,8 +501,6 @@
       </div>
       <!-- end of container -->
     </div>
-    <!-- end of basic-7 -->
-    <!-- end of invitation -->
 
     <!-- Footer -->
     <div class="footer">
@@ -647,48 +508,29 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="footer-col first">
-              <h6>About S & S Hydraulics</h6>
-              <p class="p-small">Describe company...</p>
+              <img
+                src="./images/sands/SSMD-Logo-round.png"
+                alt=""
+                class="img-fluid footer-image"
+              />
             </div>
             <!-- end of footer-col -->
             <div class="footer-col second">
               <h6>Links</h6>
               <ul class="list-unstyled li-space-lg p-small">
                 <li>
-                  Important: <a href="terms.html">Terms & Conditions</a>,
-                  <a href="privacy.html">Privacy Policy</a>
-                </li>
-                <li>
-                  Menu: <a class="page-scroll" href="index.html">Home</a>,
-                  <a class="page-scroll" href="services.html">Services</a>,
-                  <a class="page-scroll" href="about.html">About</a>,
-                  <a class="page-scroll" href="contact.html">Contact</a>
+                  Menu: <a class="page-scroll" href="#header">Home</a>,
+                  <a class="page-scroll" href="#details">Services</a>,
+                  <a class="page-scroll" href="#about">About</a>,
+                  <a class="page-scroll" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
             <!-- end of footer-col -->
             <div class="footer-col third">
-              <!-- <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x"></i>
-                </a>
-              </span>
-              <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x"></i>
-                </a>
-              </span>
-              <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-instagram fa-stack-1x"></i>
-                </a>
-              </span> -->
               <p class="p-small">
-                We would love to hear from you
-                <a href="tel:2055403751"><strong>205-540-3751</strong></a>
+                Contact us today at
+                <a href="tel:2053196022"><strong>205-319-6022</strong></a>
               </p>
             </div>
             <!-- end of footer-col -->

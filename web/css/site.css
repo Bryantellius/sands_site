@@ -99,6 +99,14 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.min-h-100vh {
+  min-height: 100vh;
+}
+
+.min-h-70vh {
+  min-height: 70vh;
+}
+ 
 .p-large {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -456,7 +464,7 @@ input[type="checkbox"] {
 }
 
 .navbar .logo-image img {
-  width: 180px;
+  width: auto;
   height: 32px;
 }
 
@@ -593,6 +601,7 @@ input[type="checkbox"] {
   padding-top: 7rem;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../images/sands/large-bore-cylinder-13.jpeg") center center no-repeat;
+  /* background-color: black; */
   background-size: cover;
   text-align: center;
 }
@@ -600,6 +609,11 @@ input[type="checkbox"] {
 .header .image-container {
   margin-bottom: 2.75rem;
   text-align: center;
+  background-image: url(../images/sands/NewSSMDLogo-white-transparent.png);
+  background-position: center;
+  background-size: contain;
+  height: 250px;
+  background-repeat: no-repeat;
 }
 
 .header img {
@@ -886,6 +900,17 @@ input[type="checkbox"] {
 /********************/
 /*     Projects     */
 /********************/
+.text-large {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: normal;
+}
+
+.swiper-slide .hr-heading {
+  margin-top: 1rem;
+    height: 0.25rem;
+}
+
 .slider-1 {
   padding-top: 3rem;
   padding-bottom: 6rem;
@@ -938,6 +963,11 @@ input[type="checkbox"] {
 /*****************/
 /*     About     */
 /*****************/
+#about .text-container {
+  position: unset;
+  margin: 1rem auto;
+}
+
 .basic-6 {
   padding-top: 5rem;
   padding-bottom: 10rem;
@@ -1098,6 +1128,11 @@ input[type="checkbox"] {
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
   color: #ffffff;
+}
+
+.footer-image {
+  max-width: 150px;
+  width: 100%;
 }
 
 /*********************/
@@ -1366,7 +1401,7 @@ a:hover.back-to-top {
   /* end of details 3 */
 
   /* Projects */
-  .slider-1 .swiper-container {
+    .slider-1 .swiper-container {
     width: 98%;
   }
 
@@ -1627,8 +1662,7 @@ a:hover.back-to-top {
 
   .basic-6 .image-container {
     width: 920px;
-    margin-right: 0;
-    margin-left: auto;
+    margin: 0 auto;
   }
   /* end of about */
 
